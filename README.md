@@ -66,3 +66,5 @@ content/
 ## 📄 License
 
 MIT
+
+<!-- auto-deploy-test: 2026-06-07 -->
