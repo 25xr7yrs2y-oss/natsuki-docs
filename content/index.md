@@ -2,6 +2,10 @@
 title: Docs
 ---
 
-# 📖 Docs
+# Docs
 
-文档站点建设中...
+This site contains structured notes and reference materials.
+
+## Knowledge Bases
+
+- [EU Customs Legal Knowledge Base](customs/index.md)
