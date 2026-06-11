@@ -8,13 +8,13 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "EU 海关法规知识库",
+    pageTitle: "Docs",
     pageTitleSuffix: " · natsuki.uk",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
     locale: "zh-CN",
-    baseUrl: "natsuki.uk/wiki",
+    baseUrl: "natsuki.uk/docs",
     ignorePatterns: ["private", "templates", ".obsidian", "docs", "scripts"],
     defaultDateType: "modified",
     theme: {
