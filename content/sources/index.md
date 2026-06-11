@@ -1,8 +1,7 @@
 # Sources
 
-## Generated
-<!-- openclaw:wiki:sources:index:start -->
-- [eu customs legal index](sources/eu-customs-legal-index.md)
-- [eu customs research report](sources/eu-customs-research-report.md)
-- [eu customs source portals](sources/eu-customs-source-portals.md)
-<!-- openclaw:wiki:sources:index:end -->
+These pages collect official source links and research notes.
+
+- [EU customs legal instruments](eu-customs-legal-index.md)
+- [EU customs research report](eu-customs-research-report.md)
+- [EU customs source portals](eu-customs-source-portals.md)

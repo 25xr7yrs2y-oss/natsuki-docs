@@ -12,9 +12,7 @@ const config: QuartzConfig = {
     pageTitleSuffix: " · natsuki.uk",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "off",
-    },
+    analytics: null,
     locale: "zh-CN",
     baseUrl: "natsuki.uk/wiki",
     ignorePatterns: ["private", "templates", ".obsidian", "docs", "scripts"],

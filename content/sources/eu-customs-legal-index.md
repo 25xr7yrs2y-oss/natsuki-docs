@@ -1,64 +1,219 @@
 ---
 pageType: source
 id: source.eu-customs-legal-index
-title: eu customs legal index
+title: EU Customs Legal Instruments
 sourceType: local-file
 sourcePath: /Users/xiaogong/Documents/Codex/2026-06-03/you-are-a-legal-regulatory-research/eu_customs_legal_index.csv
 ingestedAt: 2026-06-07T03:29:43.161Z
-updatedAt: 2026-06-07T03:29:43.161Z
+updatedAt: 2026-06-11T00:00:00.000Z
 status: active
 ---
 
-# eu customs legal index
+# EU Customs Legal Instruments
 
-## Source
-- Type: `local-file`
-- Path: `/Users/xiaogong/Documents/Codex/2026-06-03/you-are-a-legal-regulatory-research/eu_customs_legal_index.csv`
-- Bytes: 14472
-- Updated: 2026-06-07T03:29:43.161Z
+This page is a plain-text index of core European Union customs legal instruments. It replaces the earlier CSV-style table with readable article sections.
 
-## Content
-```text
-"category","subcategory","title","celex","legal_type","date_document","date_effect","status","source_url","download_url","key_articles","keywords","notes"
-"market_access","ucc_core","Regulation (EU) No 952/2013 laying down the Union Customs Code (recast)","32013R0952","Regulation","2013-10-09","2013-10-30; 2016-05-01 major application","In force; amended; EUR-Lex page accessed showed consolidated version dated 2022-12-12","https://eur-lex.europa.eu/eli/reg/2013/952/oj/eng","https://eur-lex.europa.eu/eli/reg/2013/952/oj/eng/pdf","Arts. 5, 6, 15, 18, 22-37, 38-42, 46-48, 56-58, 59-67, 69-76, 77-80, 127-149, 158-187, 201","ucc, customs declaration, release for free circulation, ENS, AEO, valuation, origin, BTI, penalties","Core EU customs framework"
-"market_access","ucc_delegated","Commission Delegated Regulation (EU) 2015/2446 supplementing the UCC","32015R2446","Delegated regulation","2015-07-28","2016-01-18; 2016-05-01 main application","In force; amended","https://eur-lex.europa.eu/eli/reg_del/2015/2446/oj/eng","https://eur-lex.europa.eu/eli/reg_del/2015/2446/oj/eng/pdf","Arts. 11-22; Art. 71; topic-dependent detailed rules","ucc da, delegated act, customs declarations, btI, valuation, origin","Detailed supplementary customs rules"
-"market_access","ucc_implementing","Commission Implementing Regulation (EU) 2015/2447 laying down detailed rules for implementing the UCC","32015R2447","Implementing regulation","2015-11-24","2016-01-18; 2016-05-01 main application","In force; amended","https://eur-lex.europa.eu/eli/reg_impl/2015/2447/oj/eng","https://eur-lex.europa.eu/eli/reg_impl/2015/2447/oj/eng/pdf","Arts. 8-23; 49-54; 127-146; 347; Annexes A/B/23-01/23-02","ucc ia, implementing act, quota management, valuation, annex b, customs data","Operational customs rules and data structures"
-"market_access","electronic_systems","Commission Implementing Regulation (EU) 2025/512 on technical arrangements for developing, maintaining and employing electronic systems under the UCC","32025R0512","Implementing regulation","2025-03-13","2025-04-09","In force","https://eur-lex.europa.eu/eli/reg_impl/2025/512/oj/eng","https://eur-lex.europa.eu/eli/reg_impl/2025/512/oj/eng/pdf","Article 42 confirmed for ICS2 structure; system-specific chapters","ics2, customs electronic systems, eori, trader interface, interoperability","Current systems-law layer for UCC e-systems"
-"market_access","ics2_update_da","Commission Delegated Regulation (EU) 2023/398 amending Delegated Regulation (EU) 2015/2446 as regards customs declarations and ENS information exchange","32023R0398","Delegated regulation","2022-12-14","2023-03-14","In force","https://eur-lex.europa.eu/eli/reg_del/2023/398/oj/eng","https://eur-lex.europa.eu/eli/reg_del/2023/398/oj/eng/pdf","ENS and declaration amending provisions","ens, ics2, declarations, multiple filing","Important ENS update"
-"market_access","ics2_update_ia","Commission Implementing Regulation (EU) 2023/403 amending Implementing Regulation (EU) 2015/2447 as regards information for ENS and risk analysis at entry of goods","32023R0403","Implementing regulation","2023-02-08","2023-03-15","In force","https://eur-lex.europa.eu/eli/reg_impl/2023/403/oj/eng","https://eur-lex.europa.eu/eli/reg_impl/2023/403/oj/eng/pdf","Amends IA arts. 184-186 in practice","ens, ics2, risk analysis, security and safety","Operational ENS / risk-analysis update"
-"tariff_classification","cct_cn_base","Council Regulation (EEC) No 2658/87 on the tariff and statistical nomenclature and on the Common Customs Tariff","31987R2658","Regulation","1987-07-23","1987-09-10; 1988-01-01 main application","In force; amended","https://eur-lex.europa.eu/eli/reg/1987/2658/oj/eng","https://eur-lex.europa.eu/eli/reg/1987/2658/oj/eng/pdf","Art. 1; Art. 9; Annex I","common customs tariff, combined nomenclature, cn, hs","Base legal act for CN and CCT"
-"tariff_classification","current_cn","Commission Implementing Regulation (EU) 2025/1926 amending Annex I to Council Regulation (EEC) No 2658/87","32025R1926","Implementing regulation","2025-09-22","2025-11-01; applies from 2026-01-01","In force","https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng","https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng/pdf","Annex I","combined nomenclature 2026, cn update, tariff classification","Current annual CN regulation for 2026"
-"tariff_classification","bti","EU Binding Tariff Information legal framework","32013R0952 / 32015R2446 / 32015R2447","Mixed","2013-10-09 onward","2016-05-01 substantive regime","In force","https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/ebti-european-binding-tariff-information_en","https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/ebti-european-binding-tariff-information_en","UCC Arts. 22-37; DA Arts. 11-22; IA Arts. 8-23","bti, ebti, tariff classification, binding decision","Use with public EBTI database and trader portal"
-"rules_of_origin","pem_conclusion","2013/94/EU: Council Decision on the conclusion of the Regional Convention on pan-Euro-Mediterranean preferential rules of origin","32013D0094","Council decision","2012-03-26","2012-03-26","In force","https://eur-lex.europa.eu/eli/dec/2013/94(1)/oj/eng","https://eur-lex.europa.eu/eli/dec/2013/94(1)/oj/eng/pdf","Convention appendices","pem, preferential origin, cumulation, convention","Treaty-level PEM origin framework"
-"rules_of_origin","pem_modernisation","Decision No 1/2023 of the PEM Joint Committee on amendment of the PEM Convention [2024/390]","22024D0390","Decision","2023-12-07","2025-01-01 operationally relevant","In force","https://eur-lex.europa.eu/eli/dec/2024/390/oj/eng","https://eur-lex.europa.eu/eli/dec/2024/390/oj/eng/pdf","Appendices and Annex III declaration text","pem, cumulation, origin declaration, product specific rules","Modernised PEM rules"
-"rules_of_origin","pem_transition","Decision No 2/2024 of the PEM Joint Committee including transitional provisions [2025/17]","22025D0017","Decision","2024-12-12","2025-01-01","In force","https://eur-lex.europa.eu/eli/dec/2025/17/oj/eng","https://eur-lex.europa.eu/eli/dec/2025/17/oj/eng/pdf","Transitional provisions","pem, transition, origin proof, cumulation","Transition layer for old/new PEM rules"
-"rules_of_origin","proofs_of_origin","Commission Implementing Regulation (EU) 2025/1728 amending Implementing Regulation (EU) 2015/2447 as regards procedures for proofs of origin","32025R1728","Implementing regulation","2025-08-08","2025-08-31","In force","https://eur-lex.europa.eu/eli/reg_impl/2025/1728/oj/eng","https://eur-lex.europa.eu/eli/reg_impl/2025/1728/oj/eng/pdf","Amending provisions to IA proof-of-origin procedures","proof of origin, statement on origin, pem, supplier declaration","Current procedural origin update"
-"trade_remedies","anti_dumping_basic","Regulation (EU) 2016/1036 on protection against dumped imports from countries not members of the European Union","32016R1036","Regulation","2016-06-08","2016-07-20","In force; amended","https://eur-lex.europa.eu/eli/reg/2016/1036/oj/eng","https://eur-lex.europa.eu/eli/reg/2016/1036/oj/eng/pdf","Arts. 1-3, 5, 7, 9, 11, 13","anti-dumping, dumping margin, provisional duty, definitive duty, anti-circumvention","Basic EU ADD act"
-"trade_remedies","anti_subsidy_basic","Regulation (EU) 2016/1037 on protection against subsidised imports from countries not members of the European Union","32016R1037","Regulation","2016-06-08","2016-07-20","In force; amended","https://eur-lex.europa.eu/eli/reg/2016/1037/oj/eng","https://eur-lex.europa.eu/eli/reg/2016/1037/oj/eng/pdf","Arts. 1-4, 7, 10, 12, 15, 19, 24","countervailing duty, anti-subsidy, injury, subsidy","Basic EU CVD act"
-"trade_remedies","safeguard_framework","Regulation (EU) 2015/478 on common rules for imports","32015R0478","Regulation","2015-03-11","2015-04-16","In force","https://eur-lex.europa.eu/eli/reg/2015/478/oj/eng","https://eur-lex.europa.eu/eli/reg/2015/478/oj/eng/pdf","Arts. 1-3, 9-16, 20","safeguard, surveillance, common rules for imports","WTO-style safeguard base"
-"trade_remedies","safeguard_framework_third_countries","Regulation (EU) 2015/755 on common rules for imports from certain third countries","32015R0755","Regulation","2015-04-29","2015-06-08","In force","https://eur-lex.europa.eu/eli/reg/2015/755/oj/eng","https://eur-lex.europa.eu/eli/reg/2015/755/oj/eng/pdf","Arts. 1-3, 10-16","safeguard, surveillance, imports from certain third countries","Parallel safeguard/import-rule framework"
-"trade_remedies","bilateral_safeguards","Regulation (EU) 2019/287 implementing bilateral safeguard clauses and temporary withdrawal of preferences in certain FTAs","32019R0287","Regulation","2019-02-13","2019-03-14","In force","https://eur-lex.europa.eu/eli/reg/2019/287/oj/eng","https://eur-lex.europa.eu/eli/reg/2019/287/oj/eng/pdf","Framework articles","bilateral safeguard, fta safeguards, withdrawal of preferences","Agreement-linked safeguard framework"
-"trade_remedies","bev_china_cvd","Commission Implementing Regulation (EU) 2024/2754 imposing a definitive countervailing duty on imports of new battery electric vehicles originating in China","32024R2754","Implementing regulation","2024-10-29","2024-10-30","In force; amended; EUR-Lex current version accessed was 2026-02-11","https://eur-lex.europa.eu/eli/reg_impl/2024/2754/oj/eng","https://eur-lex.europa.eu/eli/reg_impl/2024/2754/oj/eng/pdf","Art. 1","bev, china, countervailing duty, trade defence","Product-specific live measure"
-"trade_remedies","bev_china_cvd_amendment","Commission Implementing Regulation (EU) 2026/330 amending Implementing Regulation (EU) 2024/2754 following a partial interim review","32026R0330","Implementing regulation","2026-02-09","2026-02-11","In force","https://eur-lex.europa.eu/eli/reg_impl/2026/330/oj/eng","https://eur-lex.europa.eu/eli/reg_impl/2026/330/oj/eng/pdf","Amending text to Art. 1(2) and annexes","bev, china, interim review, cvd amendment","Preserve as amendment layer"
-"trade_remedies","sscr_add","Commission Implementing Regulation (EU) 2021/2012 imposing a definitive anti-dumping duty on imports of stainless steel cold-rolled flat products from India and Indonesia","32021R2012","Implementing regulation","2021-11-17","2021-11-19","In force; amended","https://eur-lex.europa.eu/eli/reg_impl/2021/2012/oj/eng","https://eur-lex.europa.eu/eli/reg_impl/2021/2012/oj/eng/pdf","Art. 1","stainless steel, india, indonesia, anti-dumping","Representative product-specific ADD"
-"trade_remedies","sscr_cvd","Commission Implementing Regulation (EU) 2022/433 imposing definitive countervailing duties on imports of stainless steel cold-rolled flat products from India and Indonesia","32022R0433","Implementing regulation","2022-03-15","2022-03-17","In force","https://eur-lex.europa.eu/eli/reg_impl/2022/433/oj/eng","https://eur-lex.europa.eu/eli/reg_impl/2022/433/oj/eng/pdf","Arts. 1-3","stainless steel, india, indonesia, countervailing duty","Representative product-specific CVD"
-"trade_remedies","steel_safeguard","Commission Implementing Regulation (EU) 2019/159 imposing definitive safeguard measures against imports of certain steel products","32019R0159","Implementing regulation","2019-01-31","2019-02-02","In force; repeatedly amended including 2025/1581 and 2026/846","https://eur-lex.europa.eu/eli/reg_impl/2019/159/oj/eng","https://eur-lex.europa.eu/eli/reg_impl/2019/159/oj/eng/pdf","Art. 1; Annex categories","steel safeguard, quota, safeguard measure","Highly dynamic; check latest amendment and TARIC"
-"quota_licence","agri_licences","Commission Delegated Regulation (EU) 2016/1237 on the system of import and export licences","32016R1237","Delegated regulation","2016-05-18","2016-08-06","In force; amended","https://eur-lex.europa.eu/eli/reg_del/2016/1237/oj/eng","https://eur-lex.europa.eu/eli/reg_del/2016/1237/oj/eng/pdf","Licence scope, securities, sectoral annexes","import licence, export licence, agriculture, cap","Core CAP licence framework"
-"quota_licence","autonomous_suspensions","Council Regulation (EU) 2021/2278 suspending certain CCT duties on agricultural and industrial products","32021R2278","Regulation","2021-12-20","2021-12-30; applies from 2022-01-01","In force; amended; current version shown 2025-07-01","https://eur-lex.europa.eu/eli/reg/2021/2278/oj/eng","https://eur-lex.europa.eu/eli/reg/2021/2278/oj/eng/pdf","Arts. 1-2; Annex","autonomous tariff suspension, cct duty","Suspensions do not displace ADD/CVD"
-"quota_licence","autonomous_quotas","Council Regulation (EU) 2021/2283 opening and providing for the management of autonomous tariff quotas of the Union","32021R2283","Regulation","2021-12-20","2021-12-23; applies from 2022-01-01","In force; amended; current version shown 2026-01-01","https://eur-lex.europa.eu/eli/reg/2021/2283/oj/eng","https://eur-lex.europa.eu/eli/reg/2021/2283/oj/eng/pdf","Art. 1; Annex","autonomous tariff quota, order number, quota volume","Use with live QUOTA balance data"
-"quota_licence","dual_use","Regulation (EU) 2021/821 setting up a Union regime for the control of exports, brokering, technical assistance, transit and transfer of dual-use items","32021R0821","Regulation","2021-05-20","2021-09-09","In force","https://eur-lex.europa.eu/eli/reg/2021/821/oj/eng","https://eur-lex.europa.eu/eli/reg/2021/821/oj/eng/pdf","Arts. 3-6, 11, 16, 23","dual-use, transit, technical assistance, authorisation","Restriction layer, not a general customs tariff act"
-"customs_valuation","valuation_framework","UCC customs valuation framework","32013R0952 / 32015R2447","Mixed","2013-10-09 onward","2016-05-01 regime in practice","In force","https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-valuation_en","https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-valuation_en","UCC Arts. 69-76; IA Arts. 127-146; Art. 347; Annexes 23-01 and 23-02","customs valuation, transaction value, related parties, royalties, assists","Guidance page mapped to legal acts"
-"aeo_compliance","aeo_framework","UCC AEO framework","32013R0952","Regulation","2013-10-09","2016-05-01 regime in practice","In force","https://taxation-customs.ec.europa.eu/customs/authorised-economic-operator_en","https://ec.europa.eu/taxation_customs/dds2/eos/aeo_home.jsp?Lang=en","Arts. 38-41, especially Art. 39; Art. 42 for penalties","aeo, aeoc, aeos, compliance record, suspension, revocation","Use DG TAXUD guidance plus public AEO database"
+Use this page to identify the legal act. Use EUR-Lex, TARIC, QUOTA, Access2Markets, and national customs sources to confirm the current rule for a live transaction.
 
-```
+## Core Customs Code
 
-## Notes
-<!-- openclaw:human:start -->
-<!-- openclaw:human:end -->
+### Union Customs Code
+
+Legal act: Regulation (EU) No 952/2013 laying down the Union Customs Code.
+
+CELEX: 32013R0952.
+
+Official source: [EUR-Lex ELI page for Regulation (EU) No 952/2013](https://eur-lex.europa.eu/eli/reg/2013/952/oj/eng)
+
+Main role: This is the central EU customs code. It covers customs status, customs debt, declarations, customs controls, tariff classification, customs value, origin, decisions, authorisations, AEO, entry of goods, release for free circulation, special procedures, and penalties.
+
+Important note: The UCC is amended over time. For current work, check the consolidated version and the amendment history on EUR-Lex.
+
+### UCC Delegated Regulation
+
+Legal act: Commission Delegated Regulation (EU) 2015/2446 supplementing the Union Customs Code.
+
+CELEX: 32015R2446.
+
+Official source: [EUR-Lex ELI page for Delegated Regulation (EU) 2015/2446](https://eur-lex.europa.eu/eli/reg_del/2015/2446/oj/eng)
+
+Main role: This act supplements the UCC with detailed rules on customs decisions, binding information, declarations, origin, valuation support, guarantees, special procedures, and data requirements.
+
+### UCC Implementing Regulation
+
+Legal act: Commission Implementing Regulation (EU) 2015/2447 laying down detailed rules for implementing the Union Customs Code.
+
+CELEX: 32015R2447.
+
+Official source: [EUR-Lex ELI page for Implementing Regulation (EU) 2015/2447](https://eur-lex.europa.eu/eli/reg_impl/2015/2447/oj/eng)
+
+Main role: This act contains operational customs rules, including tariff quota management, data structures, code lists, valuation detail, proof of origin procedures, and implementation rules for UCC processes.
+
+## Customs Electronic Systems
+
+Legal act: Commission Implementing Regulation (EU) 2025/512 on technical arrangements for customs electronic systems under the UCC.
+
+CELEX: 32025R0512.
+
+Official source: [EUR-Lex ELI page for Implementing Regulation (EU) 2025/512](https://eur-lex.europa.eu/eli/reg_impl/2025/512/oj/eng)
+
+Main role: This act governs technical arrangements for electronic systems used to exchange and store customs information under the UCC, including system architecture relevant to the Import Control System 2 environment.
+
+Related update: Commission Delegated Regulation (EU) 2023/398 and Commission Implementing Regulation (EU) 2023/403 updated rules for entry summary declarations and safety and security risk analysis.
+
+Official sources:
+
+- [Delegated Regulation (EU) 2023/398](https://eur-lex.europa.eu/eli/reg_del/2023/398/oj/eng)
+- [Implementing Regulation (EU) 2023/403](https://eur-lex.europa.eu/eli/reg_impl/2023/403/oj/eng)
+
+## Tariff Classification and the Common Customs Tariff
+
+### Common Customs Tariff and Combined Nomenclature
+
+Legal act: Council Regulation (EEC) No 2658/87 on the tariff and statistical nomenclature and on the Common Customs Tariff.
+
+CELEX: 31987R2658.
+
+Official source: [EUR-Lex ELI page for Regulation (EEC) No 2658/87](https://eur-lex.europa.eu/eli/reg/1987/2658/oj/eng)
+
+Main role: This act is the legal basis for the Combined Nomenclature and the Common Customs Tariff.
+
+Dynamic information note: Annual Combined Nomenclature updates and TARIC measures must be checked for the relevant date.
+
+### Current Combined Nomenclature
+
+Legal act recorded in the source dataset: Commission Implementing Regulation (EU) 2025/1926 amending Annex I to Council Regulation (EEC) No 2658/87.
+
+CELEX: 32025R1926.
+
+Official source: [EUR-Lex ELI page for Implementing Regulation (EU) 2025/1926](https://eur-lex.europa.eu/eli/reg_impl/2025/1926/oj/eng)
+
+Main role: Annual Combined Nomenclature update for use from 2026.
+
+Dynamic information note: Confirm the current annual CN regulation on EUR-Lex and check TARIC for live measures.
+
+### Binding Tariff Information
+
+Legal framework: UCC, UCC Delegated Regulation, and UCC Implementing Regulation.
+
+Official guidance and database: [European Binding Tariff Information](https://taxation-customs.ec.europa.eu/online-services/online-services-and-databases-customs/ebti-european-binding-tariff-information_en)
+
+Main role: BTI decisions provide binding classification decisions for specific goods and holders. Public records can help research classification, but they do not replace product-specific legal analysis.
+
+## Customs Valuation
+
+Legal framework: UCC customs valuation provisions and UCC Implementing Regulation valuation provisions.
+
+Official guidance: [European Commission customs valuation guidance](https://taxation-customs.ec.europa.eu/customs/calculation-customs-duties/customs-valuation_en)
+
+Main role: Customs valuation determines the customs value used to calculate ad valorem duties and some import taxes. The transaction value is generally the primary method, but the legal framework also contains alternative methods and rules for additions and adjustments.
+
+Dynamic information note: Valuation depends on transaction facts, contracts, related-party circumstances, assists, royalties, transport costs, and the exact import situation.
+
+## Rules of Origin
+
+### UCC Origin Framework
+
+Legal framework: UCC, UCC Delegated Regulation, and UCC Implementing Regulation.
+
+Main role: These acts cover non-preferential origin and operational origin procedures. Preferential origin also depends on the relevant trade agreement or preference scheme.
+
+### Pan-Euro-Mediterranean Origin Rules
+
+Official sources:
+
+- [Council Decision 2013/94/EU on the PEM Convention](<https://eur-lex.europa.eu/eli/dec/2013/94(1)/oj/eng>)
+- [Decision No 1/2023 of the PEM Joint Committee](https://eur-lex.europa.eu/eli/dec/2024/390/oj/eng)
+- [Decision No 2/2024 of the PEM Joint Committee](https://eur-lex.europa.eu/eli/dec/2025/17/oj/eng)
+
+Main role: These instruments form the legal framework for pan-Euro-Mediterranean preferential origin and transition arrangements.
+
+Dynamic information note: Preferential origin requires checking the applicable agreement, product-specific rule, proof requirement, cumulation rule, and date.
+
+## Duties, Quotas, Licences, and Suspensions
+
+### Tariff Suspensions and Autonomous Quotas
+
+Official sources:
+
+- [Council Regulation (EU) 2021/2278 on autonomous tariff suspensions](https://eur-lex.europa.eu/eli/reg/2021/2278/oj/eng)
+- [Council Regulation (EU) 2021/2283 on autonomous tariff quotas](https://eur-lex.europa.eu/eli/reg/2021/2283/oj/eng)
+- [QUOTA consultation](https://ec.europa.eu/taxation_customs/dds2/taric/quota_consultation.jsp?Lang=en)
+
+Main role: These instruments and databases support autonomous tariff suspensions and quotas. Live quota balances must be checked in QUOTA.
+
+### Agricultural Import and Export Licences
+
+Legal act: Commission Delegated Regulation (EU) 2016/1237 on the system of import and export licences.
+
+CELEX: 32016R1237.
+
+Official source: [EUR-Lex ELI page for Delegated Regulation (EU) 2016/1237](https://eur-lex.europa.eu/eli/reg_del/2016/1237/oj/eng)
+
+Main role: This act is relevant for licence requirements in Common Agricultural Policy sectors.
+
+## Trade Remedies
+
+### Anti-Dumping
+
+Legal act: Regulation (EU) 2016/1036 on protection against dumped imports from countries not members of the European Union.
+
+CELEX: 32016R1036.
+
+Official source: [EUR-Lex ELI page for Regulation (EU) 2016/1036](https://eur-lex.europa.eu/eli/reg/2016/1036/oj/eng)
+
+Main role: This is the basic EU anti-dumping regulation.
+
+### Countervailing Duties
+
+Legal act: Regulation (EU) 2016/1037 on protection against subsidised imports from countries not members of the European Union.
+
+CELEX: 32016R1037.
+
+Official source: [EUR-Lex ELI page for Regulation (EU) 2016/1037](https://eur-lex.europa.eu/eli/reg/2016/1037/oj/eng)
+
+Main role: This is the basic EU anti-subsidy regulation.
+
+### Safeguards
+
+Official sources:
+
+- [Regulation (EU) 2015/478 on common rules for imports](https://eur-lex.europa.eu/eli/reg/2015/478/oj/eng)
+- [Regulation (EU) 2015/755 on common rules for imports from certain third countries](https://eur-lex.europa.eu/eli/reg/2015/755/oj/eng)
+- [Regulation (EU) 2019/287 on bilateral safeguard clauses and temporary withdrawal of preferences](https://eur-lex.europa.eu/eli/reg/2019/287/oj/eng)
+
+Dynamic information note: Product-specific anti-dumping, countervailing, and safeguard duties are live measures. Check TARIC and the most recent Official Journal act.
+
+## Restricted Goods and Export Controls
+
+Legal act: Regulation (EU) 2021/821 setting up a Union regime for the control of exports, brokering, technical assistance, transit, and transfer of dual-use items.
+
+CELEX: 32021R0821.
+
+Official source: [EUR-Lex ELI page for Regulation (EU) 2021/821](https://eur-lex.europa.eu/eli/reg/2021/821/oj/eng)
+
+Main role: This act is relevant where customs clearance overlaps with dual-use export controls, transit controls, and brokering or technical assistance controls.
+
+Dynamic information note: Sanctions, embargoes, product safety rules, food safety rules, environmental controls, intellectual property enforcement, and security controls may also apply. Use the relevant official database for the product and country.
+
+## AEO and Compliance
+
+Legal framework: UCC provisions on Authorised Economic Operator status, customs decisions, compliance records, controls, and penalties.
+
+Official guidance: [Authorised Economic Operator](https://taxation-customs.ec.europa.eu/customs/authorised-economic-operator_en)
+
+Official database: [AEO database](https://ec.europa.eu/taxation_customs/dds2/eos/aeo_home.jsp?Lang=en)
+
+Main role: AEO status is a trusted trader framework. It can affect facilitation benefits and the compliance relationship with customs authorities.
+
+## National Law Still Matters
+
+EU customs law is harmonised, but Member State law remains important for enforcement, penalties, appeals, audits, value-added tax administration, excise administration, and national restricted goods controls.
+
+For any enforcement or dispute question, identify the competent Member State customs authority and the national procedure.
 
 ## Related
-<!-- openclaw:wiki:related:start -->
-### Referenced By
 
-- [EU Customs Legal Knowledge Base](syntheses/eu-customs-legal-knowledge-base.md)
-<!-- openclaw:wiki:related:end -->
+- [EU Customs Legal Knowledge Base](../syntheses/eu-customs-legal-knowledge-base.md)
+- [EU customs source portals](eu-customs-source-portals.md)
+- [EU customs research report](eu-customs-research-report.md)
